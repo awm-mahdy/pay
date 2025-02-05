@@ -158,17 +158,28 @@
                     </tbody></table>
             </div>
         </div>
+        HTML<a href="https://www.example.com" target="_blank">
+  <div class="rectangle">
+    <img src="image.jpg" alt="صورة">
+  </div>
+</a>
 
-
-        <div class="row justify-content-center" style="margin-top: 15px;">
-            <div class="col-md-12">
-                <div class="https://www2.0zz0.com/2025/02/05/10/601308994.png"></div>
-                .rectangle {
+CSS.rectangle {
   width: 200px; /* عرض المستطيل */
   height: 100px; /* ارتفاع المستطيل */
   background-color: #007bff; /* لون خلفية المستطيل */
   border: 1px solid #000; /* حدود المستطيل */
+  display: flex; /* لجعل الصورة في منتصف المستطيل */
+  justify-content: center; /* لجعل الصورة في منتصف المستطيل */
+  align-items: center; /* لجعل الصورة في منتصف المستطيل */
 }
+
+.rectangle img {
+  width: 100%; /* عرض الصورة */
+  height: 100%; /* ارتفاع الصورة */
+  object-fit: cover; /* لجعل الصورة تغطي المستطيل */
+}
+
 
 
                 <div class="card" id="contentu" style="margin-bottom: 10px;">
